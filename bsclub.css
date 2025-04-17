@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 10rem;
+    scroll-behavior: smooth;
+}
+
+.nav1 {
+    height: 55px;
+    background-color: blue;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    ;
+}
+
+.header {
+    position: fixed;
+    background-color: green;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    height: 90px;
+    display: flex;
+    justify-content: space-between; /* Align items to the right */
+    align-items: center; /* Vertically center the items */
+    color: white;
+    padding: 2rem 9%;
+    
+}
+
+.listtype {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Add space between the items */
+   
+    padding: 0;
+}
+
+.listtype li a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 7px;
+   
+}
+
+.listtype li a:hover {
+    text-decoration: none;
+    color:bisque
+}
+.bslogo{
+    margin-top: 100px;
+    height:300px;
+}
+.header .logo{
+    font-size: 2.5rem;
+    color:white; 
+    text-decoration: none; 
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 10rem;
+    
+   
+}
+.home  .image1{
+    align-items: center;
+    flex: 1 1 45rem;
+    width: 100%;
+}
+.home .content{
+    flex:1 1 45rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.home .content h3{
+    font-size: 2.5rem;
+    color: black;
+    text-shadow: 5px 2px 5px rgb(159, 150, 22);
+    line-height: 1.8;
+}
+.home .content p{
+    font-size: 1.5rem;
+    margin-top: 15px;
+
+    
+}
+.about{
+    background-color: rgb(243, 238, 238);
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+.about .box-container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    margin-right: 15px;
+
+}
+.about .box-container .box{
+    text-align: center;
+    border-radius: 5rem;
+    box-shadow: pink;
+    padding:30px;
+    
+}
+.about .box-container .box img{
+    height: 20rem;
+    border-radius: 50px;
+    
+
+}
+.work .box-container{
+    display:grid;
+    gap:2rem;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+
+}
+.work .box-container .box{
+    text-align: center;
+    border-radius: 5rem;
+    box-shadow: pink;
+    padding: 20px;
+
+}
+.work .box-container .box img{
+    height: 20rem;
+    border-radius: 50px;
+
+}
+.blog{
+    background-color: rgb(243, 238, 238);
+
+}
+.notice{
+    background-color: rgb(243, 238, 238);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; 
+    margin: 0; 
+    background: linear-gradient(to bottom, white 53.33%, rgba(101, 101, 154, 0.618), green ,rgb(255, 132, 10));
+    position: relative;
+   
+}
+.footer .heading{
+    color: rgb(65, 65, 201);
+    font-style:italic ;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    font-size: 45px;
+    padding: 1px; 
+   
+
+}
+.creator{
+    font-size:20px ;
+}
+
+/*--------contact--------------*/
+
+.contact_left p {
+    text-transform: none;
+}
+.row{
+    display: flex;
+}
+.contact-left{
+    flex-basis: 45%;
+}
+.contact-left p{
+    margin: 50px;
+    text-transform: none;
+
+}
+.contact-left p i{
+    color: #ff004f;
+    font-size: 25px;
+    margin-right: 15px;
+
+}
+
+.contact-right{
+    flex-basis: 55%;
+}
+.social-icon{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:#4c0ec7;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icon a:hover{
+    color:grey;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display:inline-block;
+    background: lightskyblue;
+    padding: 10px 60px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.contact-right form{
+    width:100%;
+   
+   
+
+}
+form input,form textarea{
+  
+    width:80%;
+    border: 0;
+    background: #b2acaf;
+    color:#fff;
+    padding: 15px;
+    margin:15px 0;
+    font-size: 18px;
+    border-radius: 6px;
+    color: black;
+    outline:none;
+}
+.footer{
+    he
+}
+.image2{
+    height: 50px;
+    align-items: center;
+}
+
+
+
+
+/*-------------------css for small screens---------------*/
+@media only screen and (max-width: 600px) {
+ 
+}
+
+
+
+
+
+
+
+
+
+
